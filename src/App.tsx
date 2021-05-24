@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { ThemeProvider } from './context/theme/ThemeProvider';
+import { ContentCard } from './components/contentCard/ContentCard';
+import biker from './assets/images/biker.png';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ThemeProvider>
+        <ContentCard
+          imageUrl={biker}
+          headline="Live Your Life Now"
+          body="After MitraClip, you can resume usual activity
+                        immediately. Recovery from OHS takes months."
+          button={{
+            text: 'Get the Process Started',
+            onClick: () => console.log('hello')
+          }}
+        />
+      </ThemeProvider>
     </div>
   );
 }
