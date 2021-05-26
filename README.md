@@ -30,3 +30,6 @@ Read for [Acceptance Criteria](https://github.com/Jennabsol/totallyNormalHumans/
 #### Testing Component
 1. In app.tsx, create a new contentCard with the properties: image: url, headline: text, body: text, button text, and onClick function.
 2. Check to make sure responsive breakpoints match the examples above.
+
+
+I used this [tutorial](https://css-tricks.com/how-to-make-a-media-query-less-card-component/#top-of-site) for responsive design. It has am awesome gluten free pan pizza recipe too.
