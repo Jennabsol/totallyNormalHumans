@@ -32,4 +32,4 @@ Read for [Acceptance Criteria](https://github.com/Jennabsol/totallyNormalHumans/
 2. Check to make sure responsive breakpoints match the examples above.
 
 
-I used this [tutorial](https://css-tricks.com/how-to-make-a-media-query-less-card-component/#top-of-site) for responsive design. It has am awesome gluten free pan pizza recipe too.
+I used this [tutorial](https://css-tricks.com/how-to-make-a-media-query-less-card-component/#top-of-site) for responsive design. It has an awesome gluten free pan pizza recipe too.
