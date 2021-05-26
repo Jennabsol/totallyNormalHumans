@@ -27,7 +27,7 @@ export const ContentCard: FunctionComponent<Props> = ({
     <div>
       <CardContainer>
         <ImageContainer>
-          <StyledImage src={imageUrl}></StyledImage>
+          <StyledImage src={imageUrl} width="432" height="506"></StyledImage>
         </ImageContainer>
         <ContentTextContainer>
           <StyledHeadline theme={theme}>{headline}</StyledHeadline>

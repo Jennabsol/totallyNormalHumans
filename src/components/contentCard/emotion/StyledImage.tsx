@@ -1,8 +1,10 @@
 import styled from '@emotion/styled';
 
 export const StyledImage = styled.img(() => ({
-  height: '100%',
+  height: 'auto',
   maxWidth: '100%',
+  minHeight: '100%',
   objectFit: 'cover',
-  objectPosition: '0%'
+  objectPosition: '50% 50%',
+  width: 'auto'
 }));

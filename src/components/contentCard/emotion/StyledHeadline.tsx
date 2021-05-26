@@ -7,7 +7,7 @@ type props = {
 
 export const StyledHeadline = styled.p<props>(({ theme }) => ({
   color: theme.secondary,
-  fontSize: '2rem',
+  fontSize: 'clamp(1.4rem, 2vw, 2rem)',
   fontWeight: 'bold',
   margin: 0
 }));

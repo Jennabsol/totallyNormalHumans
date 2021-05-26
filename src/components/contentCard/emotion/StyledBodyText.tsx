@@ -7,7 +7,7 @@ type props = {
 
 export const StyledBodyText = styled.p<props>(({ theme }) => ({
   color: theme.primary,
-  fontSize: '2.1rem',
+  fontSize: 'clamp(1.4rem, 2.1vw, 2.1rem)',
   marginTop: '6px',
   textAlign: 'right'
 }));
